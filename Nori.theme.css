@@ -11,36 +11,45 @@
 */
 
 :root {
+
+/* sorry this looks bad */
     /*                         R    G    B */
-    --rosewater:        rgb(244, 219, 214);
-    --flamingo:         rgb(240, 198, 198);
-    --pink:             rgb(245, 189, 230);
-    --mauve:            rgb(198, 160, 246);
-    --red:              rgb(237, 135, 150);
-    --maroon:           rgb(238, 153, 160);
-    --peach:            rgb(245, 169, 127);
-    --yellow:           rgb(238, 212, 159);
-    --green:            rgb(166, 218, 149);
-    --teal:             rgb(139, 213, 202);
-    --sky:              rgb(145, 215, 227);
-    --sapphire:         rgb(125, 196, 228);
-    --blue_:            rgb(138, 173, 244);
-    --lavender:         rgb(183, 189, 248);
-    /* Not direct from theme 
-    --white:            rgb(141, 170, 227);
-    */
+    --rosewater: rgb(245, 224, 220);
+	--flamingo: rgb(242, 205, 205);
+	--pink: rgb(245, 194, 231);
+	--mauve: rgb(203, 166, 247);
+	--red: rgb(243, 139, 168);
+	--maroon: rgb(235, 160, 172);
+	--peach: rgb(250, 179, 135);
+	--yellow: rgb(249, 226, 175);
+	--green: rgb(166, 227, 161);
+	--teal: rgb(148, 226, 213);
+	--sky: rgb(137, 220, 235);
+	--sapphire: rgb(116, 199, 236);
+	--blue: rgb(137, 180, 250);
+	--lavender: rgb(180, 190, 254);
+	--text: rgb(205, 214, 244);
+	--subtext1: rgb(186, 194, 222);
+	--subtext0: rgb(166, 173, 200);
+	--overlay2: rgb(147, 153, 178);
+	--overlay1: rgb(127, 132, 156);
+	--overlay0: rgb(108, 112, 134);
+	--surface2: rgb(88, 91, 112);
+	--surface1: rgb(69, 71, 90);
+	--surface0: rgb(49, 50, 68);
+	--base: rgb(30, 30, 46);
+	--mantle: rgb(24, 24, 37);
+	--crust: rgb(17, 17, 27);
+
     --gray0:            rgb(109, 108, 117);
     --gray1:            rgb(143, 134, 150);
     --gray2:            rgb(186, 172, 191);
-    
-    --white:            rgb(202, 211, 245);
-    --Crust:            rgb(17,   17,  27);
-    --Mantle:           rgb(24,   24,  37);
-    --Base:             rgb(30,   30,  46);
+
+
     --black3:           rgb(54,   58,  79);
     --black4:           rgb(91,   96, 120);
 
-
+    
     /* Window Properties */
     --window-margin: 7px;
     /* 137, 180, 250,0.7 */
@@ -55,47 +64,21 @@
 
     --server-selector-gradient-top: var(--black1);
     --server-selector-gradient-bottom: var(--avatar-area-background-colour);
-    /*
-    --rosewater: hsl(var(--rosewater_hsl));
-    --flamingo: hsl(var(--flamingo_hsl));
-    --mauve: hsl(var(--mauve_hsl));
-    --pink: hsl(var(--pink_hsl));
-    --pink-darker: hsl(var(--pink-darker_hsl));
-    --maroon: hsl(var(--maroon_hsl));
-    --red: hsl(var(--red_hsl));
-    --peach: hsl(var(--peach_hsl));
-    --yellow: hsl(var(--yellow_hsl));
-    --green: hsl(var(--green_hsl));
-    --teal: hsl(var(--teal_hsl));
-    --blue: hsl(var(--blue_hsl));
-    --sky: hsl(var(--sky_hsl));
-    --sky_desat: hsl(var(--sky_desat_hsl));
-    --lavender: hsl(var(--lavender_hsl));
-    --lavender_desat: hsl(var(--lavender_desat_hsl));
-    --black0: hsl(var(--black0_hsl));
-    --black1: hsl(var(--black1_hsl));
-    --black2: hsl(var(--black2_hsl));
-    --black3: hsl(var(--black3_hsl));
-    --black4: hsl(var(--black4_hsl));
-    --gray0: hsl(var(--gray0_hsl));
-    --gray1: hsl(var(--gray1_hsl));
-    --gray2: hsl(var(--gray2_hsl));
-    --white: hsl(var(--white_hsl));
-    --mauve-o10: hsl(var(--mauve_hsl), .1);
-    --pink-o20: hsl(var(--pink_hsl), .2);
-    */
+    
 
 
     --header-primary: var(--white) !important;
     --header-secondary: var(--rosewater) !important;
 
-    --background-primary: var(--Crust) !important;
+    --background-primary: var(--crust) !important;
     /* Dont know where this is used */
-    --background-primary-alt: var(--Mantle) !important;
+    --background-primary-alt: var(--mantle) !important;
     /* Friend bar */
-    --background-secondary: var(--Crust) !important;
-    --background-secondary-alt: var(--Base) !important;
-    --background-tertiary: var(--Base) !important;
+    --background-secondary: var(--crust) !important;
+    /* User modal at bottom */
+    --background-secondary-alt: var(--base) !important;
+    /* Server Bar, search, window title */
+    --background-tertiary: var(--crust) !important;
     --background-floating: var(--black2) !important;
     --background-mentioned: var(--mauve-o10) !important;
     --background-mentioned-hover: var(--pink-o20) !important;
