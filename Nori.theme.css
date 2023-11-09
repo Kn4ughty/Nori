@@ -35,7 +35,7 @@ https://fsymbols.com/generators/carty/
 
 - [ ] Selected element text colour contrast
 - [ ] Change discord blurple to our color
-- [ ] Glow and margin on left panel with channel selection
+- [x] Glow and margin on left panel with channel selection
 
 https://patorjk.com/software/taag/#p=testall&f=Blocks&t=ToDo
 tmplr
@@ -49,7 +49,8 @@ tmplr
     --selected-color: var(--accent-color);
     --hover-color: var(--surface0);
     --mentioned-color: var(--surface0);
-
+    
+    --corner-radius: 1rem;
 
     --alert: rgb(255, 0, 0);
 
@@ -184,4 +185,18 @@ tmplr
 /* top bar in freinds section */
 .theme-dark .themed_b152d4 {
     background-color: var(--Crust);
+}
+
+#channels {
+    /* use vw here i think or rem */
+    margin: 1rem;
+    box-shadow: 0rem 0rem 1rem 0rem var(--accent-color); 
+    border-radius: var(--corner-radius);; 
+}
+
+/* Message send box */
+.themedBackground__6b1b6  {
+    border-radius: var(--corner-radius);
+    border: 0.2rem solid var(--surface0);
+    box-shadow: 0rem 0rem 0.5rem 0rem var(--accent-color) !important; ;
 }
