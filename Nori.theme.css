@@ -85,6 +85,7 @@
     --pink-o20: hsl(var(--pink_hsl), .2);
     */
 
+
     --header-primary: var(--white) !important;
     --header-secondary: var(--rosewater) !important;
     --background-primary: var(--Mantle) !important;
@@ -118,3 +119,6 @@
     --deprecated-store-bg: var(--black0) !important;
 }
 
+.theme-dark .themed_b152d4 {
+    background-color: var(--Mantle);
+}
