@@ -15,7 +15,7 @@
 +#+ +:+ +#+ +#+    +:+ +#++:++#:      +#+     
 +#+  +#+#+# +#+    +#+ +#+    +#+     +#+
 #+#   #+#+# #+#    #+# #+#    #+#     #+#     
-###    ####  ########  ###    ### ########### 
+###    ####  ########  ###    ### ###########
 
     ██████╗░███████╗████████╗░█████╗░
     ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗
@@ -35,10 +35,10 @@ https://fsymbols.com/generators/carty/
          █  █▄█ █▄▀ █▄█
 
 - [ ] Selected element text colour contrast
-- [ ] Change discord blurple to our color
+- [x] Change discord blurple to our color
 - [x] Glow and margin on left panel with channel selection
-- [ ] Add trans flag selection colours
-- [ ] Glow and float entire thingymajig
+- [x] Add trans flag selection colours
+- [ ] Glow and float entire thingymajig (what is a thingymajig?)
 
 https://patorjk.com/software/taag/#p=testall&f=Blocks&t=ToDo
 tmplr
@@ -96,6 +96,8 @@ tmplr
     --black3:           rgb(54,   58,  79);
     --black4:           rgb(91,   96, 120);
 
+    /* Trans flag gradient for things.  */
+    --trans-flag: linear-gradient(270deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #FFFFFF 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
 
 
     /* Marked for removal, old code from glow cat that doesnt apply */
@@ -246,6 +248,7 @@ I stole some flag code from http://www.barchok.com/flags.html then spun it 90deg
 Also I added in the colour change thing in the second line.*/
 
 .lookFilled__19298:hover {
+    /* replace linera-gradient with var(--trans-flag) */
     background: linear-gradient(270deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #FFFFFF 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
     color: var(--mantle);
 }
