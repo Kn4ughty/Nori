@@ -1,16 +1,57 @@
 /**
  * @name Nori
  * @author Knaught+TheSmudget
- * @version 0.1
- * @description 🎉🐾 Pretty theme! 🐾🎉
+ * @version 0.2
+ * @description 🎉🐾 Pretty theme! 🐾🎉 **BETA**
  * @source https://github.com/Kn4ughty/Nori
  * @updateUrl https://raw.githubusercontent.com/Kn4ughty/Nori/main/Nori.theme.css
  **/
 
- /* @import url(https://raw.githubusercontent.com/Kn4ughty/Nori/main/NoriOnline.theme.css);
+/*
+::::    :::  ::::::::  :::::::::  ::::::::::: 
+:+:+:   :+: :+:    :+: :+:    :+:     :+:     
+:+:+:+  +:+ +:+    +:+ +:+    +:+     +:+     
++#+ +:+ +#+ +#+    +:+ +#++:++#:      +#+     
++#+  +#+#+# +#+    +#+ +#+    +#+     +#+     
+#+#   #+#+# #+#    #+# #+#    #+#     #+#     
+###    ####  ########  ###    ### ########### 
+
+    ██████╗░███████╗████████╗░█████╗░
+    ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗
+    ██████╦╝█████╗░░░░░██║░░░███████║
+    ██╔══██╗██╔══╝░░░░░██║░░░██╔══██║
+    ██████╦╝███████╗░░░██║░░░██║░░██║
+    ╚═════╝░╚══════╝░░░╚═╝░░░╚═╝░░╚═╝
+
+    This software is still in beta, 
+    make sure to report any bugs or
+           make suggestions!
+
+
+https://fsymbols.com/generators/carty/
+
+        ▀█▀ █▀█ █▀▄ █▀█
+         █  █▄█ █▄▀ █▄█
+
+- [ ] Selected element text colour contrast
+- [ ] Change discord blurple to our color
+- [ ] Glow and margin on left panel with channel selection
+
+https://patorjk.com/software/taag/#p=testall&f=Blocks&t=ToDo
+tmplr
+
 */
 
+
 :root {
+
+    --accent-color: var(--mauve) !important;
+    --selected-color: var(--accent-color);
+    --hover-color: var(--surface0);
+    --mentioned-color: var(--surface0);
+
+
+    --alert: rgb(255, 0, 0);
 
 /* sorry this looks bad */
     /*                         R    G    B */
@@ -49,7 +90,8 @@
     --black3:           rgb(54,   58,  79);
     --black4:           rgb(91,   96, 120);
 
-    
+
+
     /* Window Properties */
     --window-margin: 7px;
     /* 137, 180, 250,0.7 */
@@ -71,42 +113,75 @@
     --header-secondary: var(--rosewater) !important;
 
     --background-primary: var(--crust) !important;
-    /* Dont know where this is used */
-    --background-primary-alt: var(--mantle) !important;
+
+    /* Unknown */
+    --background-primary-alt: var(--alert) !important;
+
     /* Friend bar */
     --background-secondary: var(--crust) !important;
+
     /* User modal at bottom */
     --background-secondary-alt: var(--base) !important;
+
     /* Server Bar, search, window title */
-    --background-tertiary: var(--crust) !important;
-    --background-floating: var(--black2) !important;
-    --background-mentioned: var(--mauve-o10) !important;
+    --background-tertiary: var(--base) !important;
+
+    /* Unknown */
+    --background-floating: var(--pink) !important;
+    
+    /* Message that mentions you */
+    --background-mentioned: var(--mentioned-color) !important;
     --background-mentioned-hover: var(--pink-o20) !important;
-    --background-accent: var(--gray0) !important;
-    --background-modifier-selected: var(--black4) !important;
-    --background-modifier-accent: var(--black2) !important;
-    --background-modifier-hover: var(--black3) !important;
+
+    /* nitro colour free trial, vc active in server */
+    --background-accent: var(--blue) !important;
+    
+    /* Selected DM, channel profile etc */
+    --background-modifier-selected: var(--selected-color) !important;
+    /* Colour when hovering over selectable item */
+    --background-modifier-hover: var(--hover-color) !important;
+
+    /* DM pings and server list seperator */
+    --background-modifier-accent: var(--accent-color) !important;
+
+    /* Self explainatory */
     --text-normal: var(--white) !important;
     --text-muted: var(--gray0) !important;
     --text-link: var(--sky) !important;
-    --channels-default: var(--gray2) !important;
-    --channeltextarea-background: var(--black3) !important;
-    --activity-card-background: var(--black2) !important;
+
+    /* Channel Name text color */
+    --channels-default: var(--) !important;
+
+    /* Send Message text input box */
+    --channeltextarea-background: var(--base) !important;
+
+    /* unknown */
+    --activity-card-background: var(--alert) !important;
+
+    /* i dont wanna work it out */
     --interactive-normal: var(--white) !important;
     --interactive-muted: var(--gray0) !important;
     --interactive-hover: var(--gray2) !important;
     --interactive-active: var(--rosewater) !important;
-    --scrollbar-thin-thumb: var(--black0) !important;
+
+    /* Scrollbar in member and channel list */
+    --scrollbar-thin-thumb: var(--blue) !important;
     --scrollbar-thin-track: transparent !important;
-    --scrollbar-auto-thumb: var(--black3) !important;
-    --scrollbar-auto-track: var(--black0) !important;
+
+    /* Scrollbar bar color */
+    --scrollbar-auto-thumb: var(--accent-color) !important;
+
+    /* Full area scrollbar can move */
+    --scrollbar-auto-track: transparent !important;
     --scrollbar-auto-scrollbar-color-thumb: var(--black3) !important;
     --scrollbar-auto-scrollbar-color-track: var(--black3) !important;
     --deprecated-store-bg: var(--black0) !important;
 
-    --__header-bar-background: var(--Crust) !important;
+    /* Unknown */
+    --__header-bar-background: var(--alert) !important;
 }
 
+/* top bar in freinds section */
 .theme-dark .themed_b152d4 {
     background-color: var(--Crust);
 }
