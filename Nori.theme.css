@@ -243,3 +243,10 @@ Also I added in the colour change thing in the second line.*/
 }
 
 /* bwow chika wow wowww */
+
+/* server channel list float thing wha wah */
+.members__9f47b {
+    margin: var(--float-margin);
+    box-shadow: 0rem 0rem var(--glow-radius) 0rem var(--accent-color); 
+    border-radius: var(--corner-radius);
+}
