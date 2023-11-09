@@ -7,12 +7,13 @@
  * @updateUrl https://raw.githubusercontent.com/Kn4ughty/Nori/main/Nori.theme.css
  **/
 
+@import url(https://raw.githubusercontent.com/Kn4ughty/Nori/main/import.css);
 /*
 ::::    :::  ::::::::  :::::::::  ::::::::::: 
 :+:+:   :+: :+:    :+: :+:    :+:     :+:     
 :+:+:+  +:+ +:+    +:+ +:+    +:+     +:+     
 +#+ +:+ +#+ +#+    +:+ +#++:++#:      +#+     
-+#+  +#+#+# +#+    +#+ +#+    +#+     +#+     
++#+  +#+#+# +#+    +#+ +#+    +#+     +#+
 #+#   #+#+# #+#    #+# #+#    #+#     #+#     
 ###    ####  ########  ###    ### ########### 
 
@@ -47,6 +48,7 @@ tmplr
 
 :root {
 
+    /* Common user settings */
     --accent-color: var(--mauve) !important;
     --selected-color: var(--accent-color);
     --hover-color: var(--surface0);
@@ -58,8 +60,8 @@ tmplr
 
     --alert: rgb(255, 0, 0);
 
-/* sorry this looks bad */
-    /*                         R    G    B */
+
+    /* All the colors */
     --rosewater: rgb(245, 224, 220);
 	--flamingo: rgb(242, 205, 205);
 	--pink: rgb(245, 194, 231);
@@ -87,23 +89,25 @@ tmplr
 	--mantle: rgb(24, 24, 37);
 	--crust: rgb(17, 17, 27);
 
+    /* These are machiatoto greys */
     --gray0:            rgb(109, 108, 117);
     --gray1:            rgb(143, 134, 150);
     --gray2:            rgb(186, 172, 191);
-
-
     --black3:           rgb(54,   58,  79);
     --black4:           rgb(91,   96, 120);
 
 
 
-    /* Window Properties */
+    /* Marked for removal, old code from glow cat that doesnt apply */
+
+    /*
     --window-margin: 7px;
-    /* 137, 180, 250,0.7 */
+
     --window-box-shadow: 0px 0px 15px 5px rgba(128, 132, 255,0.6);
     --window-blur: 5px;
     --window-border-radius: 10px;
     --sidebar-colour: rgb(36, 36, 36);
+
 
     --avatar-area-box-shadow: 0px 0px 25px 7px rgba(245, 189, 230,0.6);
     --avatar-area-background-colour: var(--black0);
@@ -111,8 +115,10 @@ tmplr
 
     --server-selector-gradient-top: var(--black1);
     --server-selector-gradient-bottom: var(--avatar-area-background-colour);
-    
+    */
 
+
+    /* All the main coloring variables */
 
     --header-primary: var(--white) !important;
     --header-secondary: var(--rosewater) !important;
@@ -269,5 +275,6 @@ You would be right.*/
 
 
 /* Me code */
+
 
 
