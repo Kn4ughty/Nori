@@ -88,8 +88,11 @@
 
     --header-primary: var(--white) !important;
     --header-secondary: var(--rosewater) !important;
-    --background-primary: var(--Mantle) !important;
+
+    --background-primary: var(--Crust) !important;
+    /* Dont know where this is used */
     --background-primary-alt: var(--Mantle) !important;
+    /* Friend bar */
     --background-secondary: var(--Crust) !important;
     --background-secondary-alt: var(--Base) !important;
     --background-tertiary: var(--Base) !important;
@@ -117,8 +120,10 @@
     --scrollbar-auto-scrollbar-color-thumb: var(--black3) !important;
     --scrollbar-auto-scrollbar-color-track: var(--black3) !important;
     --deprecated-store-bg: var(--black0) !important;
+
+    --__header-bar-background: var(--Crust) !important;
 }
 
 .theme-dark .themed_b152d4 {
-    background-color: var(--Mantle);
+    background-color: var(--Crust);
 }
