@@ -10,7 +10,7 @@
  /* @import url(https://raw.githubusercontent.com/Kn4ughty/Nori/main/NoriOnline.theme.css);
 */
 
- :root {
+:root {
     /*                  R    G    B */
     --rosewater:        rgb(244, 219, 214);
     --flamingo:         rgb(240, 198, 198);
@@ -34,9 +34,9 @@
     --gray2:            rgb(186, 172, 191);
     
     --white:            rgb(202, 211, 245);
-    --black0:           rgb(24,   25,  38);
-    --black1:           rgb(30,   32,  48);
-    --black2:           rgb(36,   39,  58);
+    --Crust:            rgb(17,   17,  27);
+    --Mantle:           rgb(24,   24,  37);
+    --Base:             rgb(30,   30,  46);
     --black3:           rgb(54,   58,  79);
     --black4:           rgb(91,   96, 120);
 
@@ -87,13 +87,11 @@
 
     --header-primary: var(--white) !important;
     --header-secondary: var(--rosewater) !important;
-    --background-primary: var(--black2) !important;
-    --background-primary-alt: var(--black2) !important;
-    --background-mobile-primary: var(--black2) !important;
-    --background-secondary: var(--black1) !important;
-    --background-secondary-alt: var(--black1) !important;
-    --background-mobile-secondary: var(--black1) !important;
-    --background-tertiary: var(--black0) !important;
+    --background-primary: var(--Mantle) !important;
+    --background-primary-alt: var(--Mantle) !important;
+    --background-secondary: var(--Crust) !important;
+    --background-secondary-alt: var(--Base) !important;
+    --background-tertiary: var(--Base) !important;
     --background-floating: var(--black2) !important;
     --background-mentioned: var(--mauve-o10) !important;
     --background-mentioned-hover: var(--pink-o20) !important;
@@ -120,7 +118,3 @@
     --deprecated-store-bg: var(--black0) !important;
 }
 
-
-.container_b2ce9c {
-    background-color: black;
-}
