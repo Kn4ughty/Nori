@@ -36,6 +36,8 @@ https://fsymbols.com/generators/carty/
 - [ ] Selected element text colour contrast
 - [ ] Change discord blurple to our color
 - [x] Glow and margin on left panel with channel selection
+- [ ] Add trans flag selection colours
+- [ ] Glow and float entire thingymajig
 
 https://patorjk.com/software/taag/#p=testall&f=Blocks&t=ToDo
 tmplr
@@ -228,3 +230,12 @@ tmplr
     /* There is like a 1px gap at the bottom which this fills */
     box-shadow: 0rem 1rem 0rem 0rem var(--background-secondary-alt)
 }
+
+
+
+.lookFilled__19298:hover {
+
+    background: linear-gradient(270deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #FFFFFF 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
+    color: var(--mantle);
+}
+
