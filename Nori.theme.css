@@ -233,8 +233,8 @@ tmplr
 
 
 /* Ashlet code */
-
 /* this is the part that i did :) - Smudge 
+
 
 I stole some flag code from http://www.barchok.com/flags.html then spun it 90deg. Im so coolio!
 Also I added in the colour change thing in the second line.*/
@@ -254,8 +254,17 @@ You would be right.*/
     border-radius: var(--corner-radius);
 }
 
+.nowPlayingColumn_f5023f {
+    margin: var(--float-margin);
+    box-shadow:0rem 0rem var(--glow-radius) 0rem var(--accent-color);
+    border-radius: var(--corner-radius);
+}
 
-
+.container__0a6a9 {
+    border-radius: var(--corner-radius);
+    margin-left:0px;
+    border-left:0px;
+}
 
 
 
