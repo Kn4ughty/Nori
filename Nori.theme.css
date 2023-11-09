@@ -222,3 +222,9 @@ tmplr
 .panels__58331 {
     background-color: transparent !important;
 }
+/* Game activity */
+.panel_bd8c76 {
+    border-radius: 0px var(--corner-radius) 0px 0px !important;
+    /* There is like a 1px gap at the bottom which this fills */
+    box-shadow: 0rem 1rem 0rem 0rem var(--background-secondary-alt)
+}
