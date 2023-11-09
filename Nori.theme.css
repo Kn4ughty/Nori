@@ -1,7 +1,7 @@
 /**
  * @name Nori
  * @author Knaught+TheSmudget
- * @version 0.3
+ * @version 0.4
  * @description 🎉🐾 Pretty theme! 🐾🎉 **BETA**
  * @source https://github.com/Kn4ughty/Nori
  * @updateUrl https://raw.githubusercontent.com/Kn4ughty/Nori/main/Nori.theme.css
@@ -212,10 +212,13 @@ tmplr
     box-shadow: 0rem 0rem 0.5rem 0rem var(--accent-color) !important; ;
 }
 
-/* User area, it has an aria-lable but that seems complicated */
-/*
+/* User area, it has an aria-lable but that seems complicated to use*/
 .container_ca50b9 {
     border-radius: 0px var(--corner-radius) 0px 0px !important;
-    background-color: var(--alert) !important;
+    /* There is like a 1px gap at the bottom which this fills */
+    box-shadow: 0rem 1rem 0rem 0rem var(--background-secondary-alt)
 }
-*/
+/* Second part of the user area, this is important dont delete it */
+.panels__58331 {
+    background-color: transparent !important;
+}
