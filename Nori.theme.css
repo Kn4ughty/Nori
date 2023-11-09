@@ -7,5 +7,120 @@
  * @updateUrl https://raw.githubusercontent.com/Kn4ughty/Nori/main/Nori.theme.css
  **/
 
- @import url(https://raw.githubusercontent.com/Kn4ughty/Nori/main/NoriOnline.theme.css);
+ /* @import url(https://raw.githubusercontent.com/Kn4ughty/Nori/main/NoriOnline.theme.css);
+*/
 
+ :root {
+    /*                  R    G    B */
+    --rosewater:        rgb(244, 219, 214);
+    --flamingo:         rgb(240, 198, 198);
+    --pink:             rgb(245, 189, 230);
+    --mauve:            rgb(198, 160, 246);
+    --red:              rgb(237, 135, 150);
+    --maroon:           rgb(238, 153, 160);
+    --peach:            rgb(245, 169, 127);
+    --yellow:           rgb(238, 212, 159);
+    --green:            rgb(166, 218, 149);
+    --teal:             rgb(139, 213, 202);
+    --sky:              rgb(145, 215, 227);
+    --sapphire:         rgb(125, 196, 228);
+    --blue_:            rgb(138, 173, 244);
+    --lavender:         rgb(183, 189, 248);
+    /* Not direct from theme 
+    --white:            rgb(141, 170, 227);
+    */
+    --gray0:            rgb(109, 108, 117);
+    --gray1:            rgb(143, 134, 150);
+    --gray2:            rgb(186, 172, 191);
+    
+    --white:            rgb(202, 211, 245);
+    --black0:           rgb(24,   25,  38);
+    --black1:           rgb(30,   32,  48);
+    --black2:           rgb(36,   39,  58);
+    --black3:           rgb(54,   58,  79);
+    --black4:           rgb(91,   96, 120);
+
+
+    /* Window Properties */
+    --window-margin: 7px;
+    /* 137, 180, 250,0.7 */
+    --window-box-shadow: 0px 0px 15px 5px rgba(128, 132, 255,0.6);
+    --window-blur: 5px;
+    --window-border-radius: 10px;
+    --sidebar-colour: rgb(36, 36, 36);
+
+    --avatar-area-box-shadow: 0px 0px 25px 7px rgba(245, 189, 230,0.6);
+    --avatar-area-background-colour: var(--black0);
+    --avatar-area-top-right-radius: 20px;
+
+    --server-selector-gradient-top: var(--black1);
+    --server-selector-gradient-bottom: var(--avatar-area-background-colour);
+    /*
+    --rosewater: hsl(var(--rosewater_hsl));
+    --flamingo: hsl(var(--flamingo_hsl));
+    --mauve: hsl(var(--mauve_hsl));
+    --pink: hsl(var(--pink_hsl));
+    --pink-darker: hsl(var(--pink-darker_hsl));
+    --maroon: hsl(var(--maroon_hsl));
+    --red: hsl(var(--red_hsl));
+    --peach: hsl(var(--peach_hsl));
+    --yellow: hsl(var(--yellow_hsl));
+    --green: hsl(var(--green_hsl));
+    --teal: hsl(var(--teal_hsl));
+    --blue: hsl(var(--blue_hsl));
+    --sky: hsl(var(--sky_hsl));
+    --sky_desat: hsl(var(--sky_desat_hsl));
+    --lavender: hsl(var(--lavender_hsl));
+    --lavender_desat: hsl(var(--lavender_desat_hsl));
+    --black0: hsl(var(--black0_hsl));
+    --black1: hsl(var(--black1_hsl));
+    --black2: hsl(var(--black2_hsl));
+    --black3: hsl(var(--black3_hsl));
+    --black4: hsl(var(--black4_hsl));
+    --gray0: hsl(var(--gray0_hsl));
+    --gray1: hsl(var(--gray1_hsl));
+    --gray2: hsl(var(--gray2_hsl));
+    --white: hsl(var(--white_hsl));
+    --mauve-o10: hsl(var(--mauve_hsl), .1);
+    --pink-o20: hsl(var(--pink_hsl), .2);
+    */
+
+    --header-primary: var(--white) !important;
+    --header-secondary: var(--rosewater) !important;
+    --background-primary: var(--black2) !important;
+    --background-primary-alt: var(--black2) !important;
+    --background-mobile-primary: var(--black2) !important;
+    --background-secondary: var(--black1) !important;
+    --background-secondary-alt: var(--black1) !important;
+    --background-mobile-secondary: var(--black1) !important;
+    --background-tertiary: var(--black0) !important;
+    --background-floating: var(--black2) !important;
+    --background-mentioned: var(--mauve-o10) !important;
+    --background-mentioned-hover: var(--pink-o20) !important;
+    --background-accent: var(--gray0) !important;
+    --background-modifier-selected: var(--black4) !important;
+    --background-modifier-accent: var(--black2) !important;
+    --background-modifier-hover: var(--black3) !important;
+    --text-normal: var(--white) !important;
+    --text-muted: var(--gray0) !important;
+    --text-link: var(--sky) !important;
+    --channels-default: var(--gray2) !important;
+    --channeltextarea-background: var(--black3) !important;
+    --activity-card-background: var(--black2) !important;
+    --interactive-normal: var(--white) !important;
+    --interactive-muted: var(--gray0) !important;
+    --interactive-hover: var(--gray2) !important;
+    --interactive-active: var(--rosewater) !important;
+    --scrollbar-thin-thumb: var(--black0) !important;
+    --scrollbar-thin-track: transparent !important;
+    --scrollbar-auto-thumb: var(--black3) !important;
+    --scrollbar-auto-track: var(--black0) !important;
+    --scrollbar-auto-scrollbar-color-thumb: var(--black3) !important;
+    --scrollbar-auto-scrollbar-color-track: var(--black3) !important;
+    --deprecated-store-bg: var(--black0) !important;
+}
+
+
+.container_b2ce9c {
+    background-color: black;
+}
