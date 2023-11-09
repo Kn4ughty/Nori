@@ -232,10 +232,14 @@ tmplr
 }
 
 
+/* this is the part that i did :) - Smudge 
+
+I stole some flag code from http://www.barchok.com/flags.html then spun it 90deg. Im so coolio!
+Also I added in the colour change thing in the second line.*/
 
 .lookFilled__19298:hover {
-
     background: linear-gradient(270deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #FFFFFF 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
     color: var(--mantle);
 }
 
+/* bwow chika wow wowww */
