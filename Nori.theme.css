@@ -242,9 +242,10 @@ Also I added in the colour change thing in the second line.*/
     color: var(--mantle);
 }
 
-/* bwow chika wow wowww */
 
-/* server channel list float thing wha wah */
+/* silly little server member box floating thing
+You may notice it uses the same code stolen from my good friend Knaughty earlier in this document.
+You would be right.*/
 .members__9f47b {
     margin: var(--float-margin);
     box-shadow: 0rem 0rem var(--glow-radius) 0rem var(--accent-color); 
