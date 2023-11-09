@@ -51,6 +51,8 @@ tmplr
     --mentioned-color: var(--surface0);
     
     --corner-radius: 1rem;
+    --glow-radius: 1rem;
+    --float-margin: calc(var(--glow-radius) + 0.1rem);
 
     --alert: rgb(255, 0, 0);
 
@@ -142,8 +144,8 @@ tmplr
     /* Colour when hovering over selectable item */
     --background-modifier-hover: var(--hover-color) !important;
 
-    /* DM pings and server list seperator */
-    --background-modifier-accent: var(--accent-color) !important;
+    /* list seperator */
+    --background-modifier-accent: var(--surface0) !important;
 
     /* Self explainatory */
     --text-normal: var(--white) !important;
@@ -180,6 +182,8 @@ tmplr
 
     /* Unknown */
     --__header-bar-background: var(--alert) !important;
+
+    --brand-experiment: var(--accent-color) !important;
 }
 
 /* top bar in freinds section */
@@ -187,11 +191,18 @@ tmplr
     background-color: var(--Crust);
 }
 
+/* server channel list float thing wha wah */
 #channels {
-    /* use vw here i think or rem */
-    margin: 1rem;
-    box-shadow: 0rem 0rem 1rem 0rem var(--accent-color); 
-    border-radius: var(--corner-radius);; 
+    margin: var(--float-margin);
+    box-shadow: 0rem 0rem var(--glow-radius) 0rem var(--accent-color); 
+    border-radius: var(--corner-radius);
+}
+
+/* Dm section DM list float scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0 */
+.scroller__4b984 {
+    margin: var(--float-margin);
+    box-shadow: 0rem 0rem var(--glow-radius) 0rem var(--accent-color);
+    border-radius: var(--corner-radius);
 }
 
 /* Message send box */
@@ -200,3 +211,11 @@ tmplr
     border: 0.2rem solid var(--surface0);
     box-shadow: 0rem 0rem 0.5rem 0rem var(--accent-color) !important; ;
 }
+
+/* User area, it has an aria-lable but that seems complicated */
+/*
+.container_ca50b9 {
+    border-radius: 0px var(--corner-radius) 0px 0px !important;
+    background-color: var(--alert) !important;
+}
+*/
