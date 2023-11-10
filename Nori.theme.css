@@ -177,11 +177,11 @@ tmplr
     --interactive-active: var(--rosewater) !important;
 
     /* Scrollbar in member and channel list */
-    --scrollbar-thin-thumb: var(--blue) !important;
+    --scrollbar-thin-thumb: var(--mauve) !important;
     --scrollbar-thin-track: transparent !important;
 
     /* Scrollbar bar color */
-    --scrollbar-auto-thumb: var(--accent-color) !important;
+    --scrollbar-auto-thumb: var(--mauve) !important;
 
     /* Full area scrollbar can move */
     --scrollbar-auto-track: transparent !important;
@@ -309,6 +309,15 @@ You would be right.*/
     background-color: var(--mauve)
 } 
 
+/*Server Icon Recolouring*/
+.circleIconButton_d8df29 {
+    color: var(--mauve);
+    background-color: var(--mantle);
+}
+.circleIconButton_d8df29:hover {
+    color: var(--mantle);
+    background-color: var(--mauve);
+}
 
 
 /* Me code */
