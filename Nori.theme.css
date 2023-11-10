@@ -273,14 +273,17 @@ You would be right.*/
     margin-left:0px;
     border-left:0px;
 }
+.scroller__00e7e {
+    border-left:0px;
+}
 
 /* Me remembering the user infobox and wanting to make it nor/mal ;) */
 /* The first three is me trying to figure out how to make it float and glow and all that */
 .userPanelOuter__880e5 {
     margin: var(--float-margin);
     border-radius: var(--corner-radius);
-    width: 300px;
-    height: 928px;
+    width: 90%;
+    height: 96%;
 }
 .none__51a8f {
     border-radius: var(--corner-radius);
@@ -292,7 +295,10 @@ You would be right.*/
     margin-bottom: -1px;
 }
 
-
+/*Small fix cause the server bar kept glowing*/
+.scroller__3d071 {
+    border-radius:0%;
+}
 
 /* Me code */
 
