@@ -300,6 +300,13 @@ You would be right.*/
     border-radius:0%;
 }
 
+/*Removal of the nitro promotion badge on the home screens*/
+.premiumTrialBadge_f2180d {
+    width:27% ;
+    height:10% ;
+    overflow: hidden;
+} 
+
 /* Me code */
 
 
