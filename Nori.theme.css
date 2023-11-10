@@ -260,6 +260,7 @@ You would be right.*/
     margin: var(--float-margin);
     box-shadow: 0rem 0rem var(--glow-radius) 0rem var(--accent-color); 
     border-radius: var(--corner-radius);
+    width: 85%;
 }
 
 /* This is my insatiable ranting about the disgusting little line on the friends right thingy on the home screen i couldnt figure out how to fix */
@@ -305,7 +306,10 @@ You would be right.*/
     width:27% ;
     height:10% ;
     overflow: hidden;
+    background-color: var(--mauve)
 } 
+
+
 
 /* Me code */
 
