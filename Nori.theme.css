@@ -247,7 +247,7 @@ tmplr
 I stole some flag code from http://www.barchok.com/flags.html then spun it 90deg. Im so coolio!
 Also I added in the colour change thing in the second line.*/
 
-.lookFilled__19298:hover {
+.button_afdfd9:hover {
     /* replace linera-gradient with var(--trans-flag) */
     background: linear-gradient(270deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #FFFFFF 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
     color: var(--mantle);
@@ -263,16 +263,34 @@ You would be right.*/
     border-radius: var(--corner-radius);
 }
 
+/* This is my insatiable ranting about the disgusting little line on the friends right thingy on the home screen i couldnt figure out how to fix */
 .nowPlayingColumn_f5023f {
     margin: var(--float-margin);
     box-shadow:0rem 0rem var(--glow-radius) 0rem var(--accent-color);
     border-radius: var(--corner-radius);
-}
-
+} 
 .container__0a6a9 {
     border-radius: var(--corner-radius);
     margin-left:0px;
     border-left:0px;
+}
+
+/* Me remembering the user infobox and wanting to make it nor/mal ;) */
+/* The first three is me trying to figure out how to make it float and glow and all that */
+.userPanelOuter__880e5 {
+    margin: var(--float-margin);
+    border-radius: var(--corner-radius);
+    width: 300px;
+    height: 928px;
+}
+.none__51a8f {
+    border-radius: var(--corner-radius);
+    box-shadow: 0rem 0rem var(--glow-radius) 0rem var(--accent-color);
+}
+.userPanelInner_eddf4c {
+    border-radius: var(--corner-radius);
+    background: var(--mantle);
+    margin-bottom: -1px;
 }
 
 
