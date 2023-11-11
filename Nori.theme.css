@@ -322,4 +322,9 @@ You would be right.*/
 /* Me code */
 
 
-
+/* Fixes small scrollbar going out of corner radius */
+/* This applies to all scrollbars so some filtering is needed but should work */
+::-webkit-scrollbar-track {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
