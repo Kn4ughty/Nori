@@ -246,9 +246,9 @@ tmplr
 I stole some flag code from http://www.barchok.com/flags.html then spun it 90deg. Im so coolio!
 Also I added in the colour change thing in the second line.*/
 
-.button_afdfd9:hover {
+#my-account-tab .colorBrand_b2253e:hover {
     /* replace linera-gradient with var(--trans-flag) */
-    background: linear-gradient(270deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #FFFFFF 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
+    background: var(--trans-flag);
     color: var(--mantle);
 }
 
