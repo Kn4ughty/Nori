@@ -328,3 +328,10 @@ You would be right.*/
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/* Infobox stuff */
+#account {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
