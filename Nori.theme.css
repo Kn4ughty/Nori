@@ -62,31 +62,31 @@ tmplr
 
     /* All the colors */
     --rosewater: rgb(245, 224, 220);
-	--flamingo: rgb(242, 205, 205);
-	--pink: rgb(245, 194, 231);
-	--mauve: rgb(203, 166, 247);
-	--red: rgb(243, 139, 168);
-	--maroon: rgb(235, 160, 172);
-	--peach: rgb(250, 179, 135);
-	--yellow: rgb(249, 226, 175);
-	--green: rgb(166, 227, 161);
-	--teal: rgb(148, 226, 213);
-	--sky: rgb(137, 220, 235);
-	--sapphire: rgb(116, 199, 236);
-	--blue: rgb(137, 180, 250);
-	--lavender: rgb(180, 190, 254);
-	--text: rgb(205, 214, 244);
-	--subtext1: rgb(186, 194, 222);
-	--subtext0: rgb(166, 173, 200);
-	--overlay2: rgb(147, 153, 178);
-	--overlay1: rgb(127, 132, 156);
-	--overlay0: rgb(108, 112, 134);
-	--surface2: rgb(88, 91, 112);
-	--surface1: rgb(69, 71, 90);
-	--surface0: rgb(49, 50, 68);
-	--base: rgb(30, 30, 46);
-	--mantle: rgb(24, 24, 37);
-	--crust: rgb(17, 17, 27);
+    --flamingo: rgb(242, 205, 205);
+    --pink: rgb(245, 194, 231);
+    --mauve: rgb(203, 166, 247);
+    --red: rgb(243, 139, 168);
+    --maroon: rgb(235, 160, 172);
+    --peach: rgb(250, 179, 135);
+    --yellow: rgb(249, 226, 175);
+    --green: rgb(166, 227, 161);
+    --teal: rgb(148, 226, 213);
+    --sky: rgb(137, 220, 235);
+    --sapphire: rgb(116, 199, 236);
+    --blue: rgb(137, 180, 250);
+    --lavender: rgb(180, 190, 254);
+    --text: rgb(205, 214, 244);
+    --subtext1: rgb(186, 194, 222);
+    --subtext0: rgb(166, 173, 200);
+    --overlay2: rgb(147, 153, 178);
+    --overlay1: rgb(127, 132, 156);
+    --overlay0: rgb(108, 112, 134);
+    --surface2: rgb(88, 91, 112);
+    --surface1: rgb(69, 71, 90);
+    --surface0: rgb(49, 50, 68);
+    --base: rgb(30, 30, 46);
+    --mantle: rgb(24, 24, 37);
+    --crust: rgb(17, 17, 27);
 
     /* These are machiatoto greys */
     --gray0:            rgb(109, 108, 117);
@@ -97,26 +97,6 @@ tmplr
 
     /* Trans flag gradient for things.  */
     --trans-flag: linear-gradient(270deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #FFFFFF 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
-
-
-    /* Marked for removal, old code from glow cat that doesnt apply */
-
-    /*
-    --window-margin: 7px;
-
-    --window-box-shadow: 0px 0px 15px 5px rgba(128, 132, 255,0.6);
-    --window-blur: 5px;
-    --window-border-radius: 10px;
-    --sidebar-colour: rgb(36, 36, 36);
-
-
-    --avatar-area-box-shadow: 0px 0px 25px 7px rgba(245, 189, 230,0.6);
-    --avatar-area-background-colour: var(--black0);
-    --avatar-area-top-right-radius: 20px;
-
-    --server-selector-gradient-top: var(--black1);
-    --server-selector-gradient-bottom: var(--avatar-area-background-colour);
-    */
 
 
     /* All the main coloring variables */
@@ -167,15 +147,6 @@ tmplr
     /* Send Message text input box */
     --channeltextarea-background: var(--base) !important;
 
-    /* unknown */
-    --activity-card-background: var(--alert) !important;
-
-    /* i dont wanna work it out */
-    --interactive-normal: var(--white) !important;
-    --interactive-muted: var(--gray0) !important;
-    --interactive-hover: var(--gray2) !important;
-    --interactive-active: var(--rosewater) !important;
-
     /* Scrollbar in member and channel list */
     --scrollbar-thin-thumb: var(--mauve) !important;
     --scrollbar-thin-track: transparent !important;
@@ -187,16 +158,10 @@ tmplr
     --scrollbar-auto-track: transparent !important;
     --scrollbar-auto-scrollbar-color-thumb: var(--black3) !important;
     --scrollbar-auto-scrollbar-color-track: var(--black3) !important;
-    --deprecated-store-bg: var(--black0) !important;
-
-    /* Unknown */
-    --__header-bar-background: var(--alert) !important;
-
-    --brand-experiment: var(--accent-color) !important;
 }
 
 /* top bar in freinds section */
-.theme-dark .themed_b152d4 {
+.theme-dark .container_fc4f04 {
     background-color: var(--Crust);
 }
 
@@ -221,23 +186,24 @@ tmplr
     box-shadow: 0rem 0rem 0.5rem 0rem var(--accent-color) !important; ;
 }
 
-/* User area, it has an aria-lable but that seems complicated to use*/
-.container_ca50b9 {
+/* User area */
+.container_b2ca13 {
     border-radius: 0px var(--corner-radius) 0px 0px !important;
     /* There is like a 1px gap at the bottom which this fills */
-    box-shadow: 0rem 1rem 0rem 0rem var(--background-secondary-alt)
+    box-shadow: 0rem 1rem 0rem 0rem var(--background-secondary-alt);
 }
-/* Second part of the user area, this is important dont delete it */
-.panels__58331 {
+
+/* this is the parent element of the user area container. */
+.panels_a4d4d9 {
     background-color: transparent !important;
 }
+
 /* Game activity */
 .panel_bd8c76 {
     border-radius: 0px var(--corner-radius) 0px 0px !important;
     /* There is like a 1px gap at the bottom which this fills */
     box-shadow: 0rem 1rem 0rem 0rem var(--background-secondary-alt)
 }
-
 
 /* Ashlet code */
 /* this is the part that i did :) - Smudge 
@@ -318,8 +284,6 @@ You would be right.*/
     color: var(--mantle);
     background-color: var(--mauve);
 }
-
-/* Me code */
 
 
 /* Fixes small scrollbar going out of corner radius */
